@@ -22,3 +22,13 @@ ul li {list-style: none;}
 img {vertical-align: top;}
 h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
 
+.body,
+.body-portfolio {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background: #ffffff;
+    position: relative;
+    font-size: 16px;
+}
+
+.body-portfolio {}
