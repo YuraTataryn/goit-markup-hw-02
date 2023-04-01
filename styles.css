@@ -1,18 +1,23 @@
 
-.body,
-.body-portfolio {
+body{
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background: #ffffff;
-    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
     letter-spacing: 0.02em;
+    border-color: var(--primari-whitecolor);
+    color: var(--base-text-color);
 }
 
 :root{
-    --primary-text-color: #2E2F42;
-    --title-text-color: #434455;
+    --primary-text-color: #ffffff;
+    --title-text-color: #2e2f42;
+    --accent-color: #4d5ae5;
+    --base-text-color: #434455;
+    --bth-hover-color: #404bbf;
+    --bth-secondary-color: #e7e9fc;
+    --second-white-text: #f4f4fd;
 }
-
 .section-first{
     background: #2E2F42;
 }
