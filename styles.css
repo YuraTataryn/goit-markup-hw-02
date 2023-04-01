@@ -38,10 +38,10 @@ body{
 .light-logo{
     color: #f4f4fd;
 }
-.link{
+.header-link{
     text-decoration: none;
 }
-.list{
+.footer-list{
     list-style: none;
 }
 .contact-link{
