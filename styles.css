@@ -16,18 +16,8 @@
 .section-first{
     background: #2E2F42;
 }
-.links{
-    font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        text-decoration: none;
-}
 
-.link{
+.logo-link{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px; 
@@ -42,7 +32,8 @@
 .light-logo{
     color: #f4f4fd;
 }
-.list{
+
+.contact-link{
 font-weight: 500;
 font-size: 16px;
 list-style: none;
