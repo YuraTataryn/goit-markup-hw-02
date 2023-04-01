@@ -7,6 +7,7 @@ body{
     letter-spacing: 0.02em;
     border-color: var(--primari-whitecolor);
     color: var(--base-text-color);
+    background-color: #ffffff;
 }
 
 :root{
@@ -37,7 +38,12 @@ body{
 .light-logo{
     color: #f4f4fd;
 }
-
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
 .contact-link{
 font-weight: 500;
 font-size: 16px;
