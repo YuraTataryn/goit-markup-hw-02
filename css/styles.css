@@ -1,6 +1,6 @@
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 400;
     font-size: 16px;
     font-weight: 1,5;
@@ -22,7 +22,7 @@ body{
     background: var(--title-text-color);
 }
 .logo-link{
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px; 
     line-height: 1.17;
@@ -112,13 +112,14 @@ color: var(--title-text-color);
     border: 1px solid var(--bth-secondary-color);
 }
 .section-foursh{
-    background: var(--second-white-text);
+   background-color: var(--second-white-text);
 }
 .item-man{
     mix-blend-mode: normal;
+    background-color: var(--primary-text-color);
 }
 .footer{
-    border-color: var(--title-text-color);
+    background-color: var(--title-text-color);
 }
 /* portfolio */
 .portfolio-button{
