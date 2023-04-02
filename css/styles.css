@@ -122,16 +122,14 @@ color: var(--title-text-color);
 }
 /* portfolio */
 .portfolio-button{
-    font-family: "Roboto",sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: var(--accent-color);
     background-color: var(--second-white-text);
-}
-.portfolio-button{
-    cursor: pointer;
 }
 .portfolio-button:hover,.portfolio-button:focus{
     color: var(--primary-text-color);
