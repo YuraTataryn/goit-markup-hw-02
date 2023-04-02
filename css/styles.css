@@ -98,7 +98,7 @@ color: var(--title-text-color);
         color: var(--base-text-color);
 }
 .subject{
-    font-weight: 700;
+        font-weight: 700;
         font-size: 36px;
         line-height: 40px;
         line-height: 1.11;
@@ -134,7 +134,4 @@ color: var(--title-text-color);
 .portfolio-button:hover,.portfolio-button:focus{
     color: var(--primary-text-color);
     background-color: var(--bth-hover-color);
-}
-.link-portfolio{
-    mix-blend-mode: normal;
 }
