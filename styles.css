@@ -73,7 +73,7 @@ color: var(--title-text-color);
     line-height: 1,07;
 }
 .button{
-   --font-family: inherit;
+   font-family: "Roboto" sans-serif;
    background-color: var(--accent-color);
    font-weight: 500;
    font-size: 16px;
