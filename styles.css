@@ -123,39 +123,18 @@ color: var(--title-text-color);
     background: var(--base-text-color);
 }
 /* portfolio */
-
-.portfolio-btn{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        --font-family: inherit;
-        color: var(--primary-text-color);
-        background: var(--bth-hover-color);
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-}
-
 .portfolio-button{
     font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        --font-family: inherit;
-        color: var(--accent-color);
-        background: var(--second-white-text);
-        border: 1px solid var(--bth-secondary-color);
-        border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    --font-family: inherit;
+    line-height: 1,5;
+    color: var(--accent-color);
+    background-color: var(--second-white-text);
 }
-.portfolio-btn,.portfolio-button:hover,.portfolio-btn,.portfolio-button:focus{
+.portfolio-button:hover,.portfolio-button:focus{
     color: var(--primary-text-color);
-    background: var(--bth-hover-color);
+    border-color: var(--bth-hover-color);
 }
 .link-portfolio{
     mix-blend-mode: normal;
