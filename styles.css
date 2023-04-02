@@ -134,7 +134,7 @@ color: var(--title-text-color);
 }
 .portfolio-button:hover,.portfolio-button:focus{
     color: var(--primary-text-color);
-    border-color: var(--bth-hover-color);
+    background-color: var(--bth-hover-color);
 }
 .link-portfolio{
     mix-blend-mode: normal;
