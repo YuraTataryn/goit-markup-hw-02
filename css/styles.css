@@ -65,12 +65,12 @@ color: var(--title-text-color);
     font-style: normal;
 }
 .title {
-    font-weight: 700;
     font-size: 56px;
+    line-height:1,07;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-align: center;
-    line-height:1,07;
+    
 }
 .button{
    font-family: "Roboto" sans-serif;
