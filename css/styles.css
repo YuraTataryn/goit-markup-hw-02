@@ -3,7 +3,7 @@ body{
     font-family: "Roboto",sans-serif;
     font-weight: 400;
     font-size: 16px;
-    font-weight: 1,5;
+    font-weight: 1.5;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--base-text-color);
@@ -46,12 +46,12 @@ body{
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0.02em;
-line-height: 1,5;
+line-height: 1.5;
 color: var(--title-text-color);
 }
 .contacts-link {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--base-text-color);
 }
@@ -66,19 +66,18 @@ color: var(--title-text-color);
 }
 .title {
     font-size: 56px;
-    line-height:1,07;
+    line-height:1.07;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-align: center;
-    
 }
 .button{
    font-family: "Roboto" sans-serif;
    background-color: var(--accent-color);
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,5;
-   letter-spacing: 0,04em;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
    color: var(--primary-text-color);
    cursor: pointer;
 }
@@ -88,13 +87,13 @@ color: var(--title-text-color);
 .caption{
     font-weight: 500;
         font-size: 20px;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
 }
 .text{
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--base-text-color);
 }
@@ -128,7 +127,7 @@ color: var(--title-text-color);
     font-size: 16px;
     letter-spacing: 0.04em;
     cursor: pointer;
-    line-height: 1,5;
+    line-height: 1.5;
     color: var(--accent-color);
     background-color: var(--second-white-text);
 }
