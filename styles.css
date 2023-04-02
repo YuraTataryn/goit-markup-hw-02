@@ -3,13 +3,12 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    font-weight: 1,5;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    border-color: var(--primari-whitecolor);
     color: var(--base-text-color);
-    background-color: #ffffff;
+    background-color: var(--primary-text-color);
 }
-
 :root{
     --primary-text-color: #ffffff;
     --title-text-color: #2e2f42;
@@ -20,9 +19,8 @@ body{
     --second-white-text: #f4f4fd;
 }
 .section-first{
-    background: #2E2F42;
+    background: var(--title-text-color);
 }
-
 .logo-link{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -30,18 +28,18 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--accent-color);
 }
 .dark-logo{
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 .light-logo{
-    color: #f4f4fd;
+    color: var(--second-white-text);
 }
-.header-link{
+.link{
     text-decoration: none;
 }
-.footer-list{
+.list{
     list-style: none;
 }
 .contact-link{
@@ -51,50 +49,57 @@ list-style: none;
 line-height: 24px;
 letter-spacing: 0.02em;
 line-height: 1,5;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 .contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--base-text-color);
+}
+.contact-link:hover,.contact-link:focus{
+    color: var(--bth-hover-color);
+}
+.contacts-link:hover,.contacts-link:focus{
+    color: var(--bth-hover-color);
 }
 .title {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     text-align: center;
     line-height: 1,07;
 }
 .button{
    --font-family: inherit;
-   background-color: #4D5AE5;
+   background-color: var(--accent-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1,5;
    letter-spacing: 0,04em;
-   color: #ffffff;
+   color: var(--primary-text-color);
    cursor: pointer;
 }
 .button:hover,.button:focus{
-    background-color: #404BBF;
+    color: var(--primary-text-color);
+    background: var(--bth-hover-color);
 }
 .caption{
     font-weight: 500;
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--title-text-color);
 }
 .text{
     font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--base-text-color);
 }
 .subject{
     font-weight: 700;
@@ -103,19 +108,19 @@ color: #2E2F42;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+        color: var(--title-text-color);
 }
 .item-fase{
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--bth-secondary-color);
 }
 .section-foursh{
-    background: #F4F4FD;
+    background: var(--second-white-text);
 }
 .item-man{
     mix-blend-mode: normal;
 }
 .footer{
-    background: #2E2F42;
+    background: var(--base-text-color);
 }
 /* portfolio */
 
@@ -128,8 +133,8 @@ color: #2E2F42;
         text-align: center;
         letter-spacing: 0.04em;
         --font-family: inherit;
-        color: #FFFFFF;
-        background: #404BBF;
+        color: var(--primary-text-color);
+        background: var(--bth-hover-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
 }
@@ -143,15 +148,14 @@ color: #2E2F42;
         text-align: center;
         letter-spacing: 0.04em;
         --font-family: inherit;
-        color: #4D5AE5;
-        background: #F4F4FD;
-        border: 1px solid #E7E9FC;
+        color: var(--accent-color);
+        background: var(--second-white-text);
+        border: 1px solid var(--bth-secondary-color);
         border-radius: 4px;
 }
-.portfolio-btn,.portfolio-button:hover,.portfolio-btn,
-.portfolio-button:focus{
-    color: var(--white);
-    background: var(--ocean);
+.portfolio-btn,.portfolio-button:hover,.portfolio-btn,.portfolio-button:focus{
+    color: var(--primary-text-color);
+    background: var(--bth-hover-color);
 }
 .link-portfolio{
     mix-blend-mode: normal;
