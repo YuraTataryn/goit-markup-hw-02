@@ -122,6 +122,7 @@ color: var(--title-text-color);
 }
 /* portfolio */
 .portfolio-button{
+    font-family: "Roboto", sans-serif;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
