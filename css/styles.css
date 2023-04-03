@@ -93,6 +93,12 @@ color: var(--title-text-color);
         letter-spacing: 0.02em;
         color: var(--base-text-color);
 }
+.text-footer{
+    font-style: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-white-text);
+}
 .subject{
         font-weight: 700;
         font-size: 36px;
